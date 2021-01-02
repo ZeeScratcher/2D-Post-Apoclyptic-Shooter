@@ -1,5 +1,6 @@
 ############################
-# File name Lil Shooter.py #                 
+# File name Lil Shooter.py #
+#version 0.0.1             #    
 # By Zee_Scratcher         #
 #                          #
 ############################
