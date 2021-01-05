@@ -1,7 +1,7 @@
 ############################
 # File name Lil Shooter.py #                 
 # By Zee_Scratcher         #
-# v 0.0.4                  #
+# v 0.0.5                  #
 #                          #
 ############################
 import pygame
@@ -528,7 +528,7 @@ def redrawGameWindow():
     pygame.display.update()    
     pygame.display.update()
 
-    if zombiecount == 3:
+    if zombiecount == 80:
         level = 2
         text2 = fontforScore.render('Level '+ str(level), 2, (255,255,255))
         screen.blit(text2, (150,300))
